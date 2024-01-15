@@ -1,0 +1,33 @@
+.wrapper {
+  width: 100%;
+  height: fit-content;
+  overflow: auto;
+  max-height: 480px;
+  margin-top: 5px;
+  background-color: white;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  padding: 0 20px;
+  width: 100%;
+  border-bottom: 4px solid gainsboro;
+  cursor: pointer;
+}
+.profilePicture img {
+  height: 50px;
+  border-radius: 50%;
+}
+
+.user > div {
+  margin-right: 20px;
+}
+.user > div:last-child {
+  color: rgb(128, 125, 125);
+}
+
+.user:hover {
+  background-color: rgba(85, 85, 85, 0.139);
+}
